@@ -29,3 +29,4 @@ if st.button("Generate Workout"):
     st.write(f"Here are your random {muscle_group} exercises:")
     for exercise in workout:
         st.write(f"- {exercise}")
+streamlit run your_script.py
